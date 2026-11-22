@@ -3,11 +3,11 @@
 // ・画面（HTML）は通信を優先し、つながらないときは保存したものを使う。公開を更新すると次に開いたときから新しい版になる
 // ・フォントは使った文字の分だけ、使ったときに保存する
 // ・sh0zy.github.io には別のアプリも同居しているので、自分の名前で始まるキャッシュだけを扱う
-const VERSION = '0.1.0-mwr5dyyz'
+const VERSION = '0.1.0-mwr5vnwa'
 const PREFIX = 'okane-nagare-'
 const CACHE = `${PREFIX}${VERSION}`
 const FONT_CACHE = `${PREFIX}fonts`
-const PRECACHE = ["./","./assets/index-DnCly48I.js","./assets/index-CPibkYwu.css","./manifest.webmanifest","./icon.svg","./icon-192.png","./icon-512.png","./apple-touch-icon.png"]
+const PRECACHE = ["./","./assets/index-CVjicqaT.js","./assets/index-CPibkYwu.css","./manifest.webmanifest","./icon.svg","./icon-192.png","./icon-512.png","./apple-touch-icon.png"]
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
